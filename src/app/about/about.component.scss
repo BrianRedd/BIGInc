@@ -1,0 +1,33 @@
+h2 {
+	margin-bottom: 20px;
+}
+
+p {
+	padding-top: 20px;
+}
+
+ul {
+	margin: 15px 0 0 -40px;
+	list-style-type: none;
+	li {
+		text-transform: uppercase;
+		&:before {
+			content: url("../../assets/images/orange_check.png");
+		}
+		div {
+			margin: -35px 0 20px 0;
+			padding: 0 10px 0 40px;
+			transition: 500ms padding;
+			h4 {
+				font-size: 21px;
+			}
+			span {
+				font-size: 12px;
+			}
+		}
+		&:hover div {
+			color: #EF832B;
+			padding: 0 0 0 50px;
+		}
+	}
+}

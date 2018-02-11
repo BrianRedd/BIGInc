@@ -1,0 +1,36 @@
+h2 {
+	margin-bottom: 20px;
+}
+
+.map {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	iframe {
+		border-style: none;
+		overflow: hidden;
+		width: 100%;
+	}
+	a,
+	a:link {
+		position: absolute;
+		bottom: 0;
+		height: 30px;
+		line-height: 20px;
+		vertical-align: middle;
+		padding: 5px 5px 5px 10px;
+		left: 0;
+		right: 0;
+		display: block;
+		background-color: #545454;
+		background-color: rgba(0,0,0,0.7);
+		color: white;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 14px;
+	}
+}
+
+.address {
+	font-weight: bold;
+}

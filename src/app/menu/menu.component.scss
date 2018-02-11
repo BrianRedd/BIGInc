@@ -1,0 +1,46 @@
+$color-home: #EE612C;
+$color-about: #EF832B;
+$color-service: #EEA32C;
+$color-contact: #EDBF2B;
+
+.nav {
+	height: 160px;
+	background-color: transparent!important;
+	text-transform: uppercase;
+	a {
+		border-radius: 0px;
+		color: #FFF;
+		height: 40px;
+		width: 100%;
+		line-height: 40px;
+		font-size: 12px;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	a:nth-child(1) {
+		background-color: $color-home;
+	}
+	a:nth-child(2) {
+		background-color: $color-about;
+	}
+	a:nth-child(3) {
+		background-color: $color-service;
+	}
+	a:nth-child(4) {
+		background-color: $color-contact;
+	}
+}
+
+@media screen and (min-width: 600px){
+	.nav {
+		padding-left: 16px;
+		height: 80px;
+		a {
+			height: 80px;
+			line-height: 80px;
+		}
+	}
+}
+
+
