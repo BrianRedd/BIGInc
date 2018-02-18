@@ -1,3 +1,5 @@
+$color-home: #EE612C;
+
 h2 {
 	margin-bottom: 20px;
 }
@@ -33,4 +35,29 @@ h2 {
 
 .address {
 	font-weight: bold;
+}
+
+#contactForm {
+	.mat-input-container {
+		margin-bottom: 10px;
+		md-hint {
+			color: #f44336;
+		}
+	}
+	button {
+		width: 95px;
+		height: 44px;
+		right: 30px;
+		background: #4A4D52;
+		color: #FFF;
+		text-align: center;
+		text-transform: uppercase;
+		transition: all .3s ease-out;
+		&:disabled {
+			opacity: 0.5;
+		}
+		&:hover {
+			background-color: $color-home;
+		}
+	}
 }
