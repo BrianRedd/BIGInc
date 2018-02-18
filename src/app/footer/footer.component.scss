@@ -14,6 +14,13 @@ footer {
 	p {
 		font-size: 10px;
 	}
+	a {
+		color: inherit;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 	.share {
 		padding: 15px 0 0 30px;
 		justify-content: center;

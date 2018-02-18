@@ -2,8 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { flyInOut } from "../animations/app.animation";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { Contact } from "../shared/contact";
-//import { HttpClient } from '@angular/common/http';
-//import { ContactService } from "../shared/contact.service";
 
 @Component({
 	selector: 'app-contact',
@@ -89,7 +87,6 @@ export class ContactComponent implements OnInit {
 	onSubmit() { //disabled because of basic Formspree
 		this.contact = this.contactForm.value;
 		console.log(this.contact);
-		//this.http.post("https://formspree.io/me@rbrianredd.com", this.contact);
 	}
 
 }
